@@ -1,0 +1,23 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es5",
+    "module": "commonjs",
+    "baseUrl": "./",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@src/*": ["src/*"],
+      "@static/*": ["static/*"]
+    },
+    "lib": ["dom", "es2015", "es2017"],
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "strict": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["**/*.js", "**/*.jsx", "gatsby.node.esm.js"]
+}
