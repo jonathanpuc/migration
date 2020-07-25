@@ -36,7 +36,7 @@ src: url(${AkzidenzGrotesk}) format("woff"),
     font-family: ${theme.fonts.body};
     -webkit-font-smoothing: subpixel-antialiased;
     -moz-osx-font-smoothing: grayscale;
-    line-height: 1.4;
+    line-height: 1.2;
     position: relative;
     color: ${theme.colors.black};
     overflow-x: hidden;

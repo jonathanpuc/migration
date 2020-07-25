@@ -64,6 +64,7 @@ const IndexPage = (props) => {
           padding: 0,
           display: "flex",
           listStyle: "none",
+          flexDirection: ["column", null, "row"],
           flexWrap: "wrap",
         }}
       >
@@ -77,14 +78,15 @@ const IndexPage = (props) => {
             onFocusLeave={onCountryLeave}
             sx={{
               mr: rem(40),
-              mb: rem(-24),
+              mb: [0, null, rem(-24)],
               "&:hover, &:focus": {
                 color: "green",
-                cursor: "none",
+                outline: "none",
               },
               transition: "color 200ms linear",
-              fontSize: rem(65),
+              fontSize: [rem(40), rem(65)],
               position: "relative",
+              lineHeight: [1.2, null, 1.4],
             }}
           >
             {stamp.name.toUpperCase()}
