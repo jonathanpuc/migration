@@ -54,7 +54,7 @@
     "react-slick": "^0.25.2",
     "react-spring": "^8.0.27",
     "remark": "^11.0.2",
-    "remark-html": "^10.0.0",
+    "remark-html": "^13.0.2",
     "scroll-into-view": "^1.14.2",
     "shopify-buy": "^2.8.1",
     "slugify": "^1.3.6",
